@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-orange {
+  background-color: #ff6020;
+}
+.text-orange {
+  color: #ff6020;
+}
+
+.bg-watch {
+  background-color: #2f2f2f;
+}
+
+.bg-2 {
+  background-color: #ffbfa6;
+}
+.bg-3 {
+  background-color: #ffe3d8;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.circle {
+  font-size: 24px;
+  height: 180px;
+  line-height: 192px;
+  text-align: center;
+  width: 180px;
+
+  border-radius: 100%;
+  border-width: 4px;
+
+  border-bottom-color: blue;
+  border-left-color: blue;
+  border-right-color: red;
+  border-top-color: red;
+}
+
+.abc {
+  border: 12px #afafaf44 solid;
+  border-radius: 100%;
+
+  border-top-color: #ff6020;
+  border-right-color: #ff6020;
+
+  transform: rotateZ(45deg);
+  /* box-shadow: 0px 0px 15px #FF6020; */
+}
+
+.xyz {
+  transform: rotateZ(-45deg);
+}
